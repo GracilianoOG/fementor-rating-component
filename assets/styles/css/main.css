@@ -3,3 +3,10 @@
   margin: 0;
   padding: 0;
 }
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
