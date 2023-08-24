@@ -3,7 +3,19 @@
 
 .wrapper {
   align-items: center;
+  background-color: variables.$very-dark-blue;
   display: flex;
   justify-content: center;
   min-height: 100vh;
+}
+
+.component {
+  background-color: variables.$dark-blue;
+  border-radius: 2rem;
+  max-width: 375px;
+  padding: 2rem;
+
+  &__final {
+    display: none;
+  }
 }
