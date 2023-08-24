@@ -16,6 +16,12 @@
   max-width: 375px;
   padding: 2rem;
 
+  &__title {
+    color: variables.$white;
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+
   &__final {
     display: none;
   }

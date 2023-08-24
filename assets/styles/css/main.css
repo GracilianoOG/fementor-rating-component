@@ -19,6 +19,11 @@
   max-width: 375px;
   padding: 2rem;
 }
+.component__title {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 1.8rem;
+}
 .component__final {
   display: none;
 }
