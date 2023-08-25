@@ -53,8 +53,8 @@
   letter-spacing: 2px;
   padding: 0.85rem;
   text-transform: uppercase;
-  transition: background-color 0.25s, color 0.25s;
   width: 100%;
+  transition: background-color 0.25s, color 0.25s;
 }
 .component__submit:focus, .component__submit:hover {
   background-color: hsl(0, 0%, 100%);

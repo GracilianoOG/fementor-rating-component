@@ -1,6 +1,16 @@
 @use "./reset";
 @use "./variables";
 
+@mixin hover-effect($bg-color, $font-color, $time: .25s) {
+  transition: background-color $time, color $time;
+
+  &:focus,
+  &:hover {
+    background-color: $bg-color;
+    color: $font-color;
+  }
+}
+
 .wrapper {
   align-items: center;
   background-color: variables.$very-dark-blue;
@@ -56,14 +66,8 @@
     letter-spacing: 2px;
     padding: .85rem;
     text-transform: uppercase;
-    transition: background-color .25s, color .25s;
     width: 100%;
-
-    &:focus,
-    &:hover {
-      background-color: variables.$white;
-      color: variables.$orange;
-    }
+    @include hover-effect(variables.$white, variables.$orange)
   }
 }
 
@@ -82,12 +86,6 @@
     font-size: 1rem;
     font-weight: 700;
     padding: 0 1.35rem;
-    transition: background-color .25s, color .25s;
-
-    &:focus,
-    &:hover {
-      background-color: variables.$orange;
-      color: variables.$white;
-    }
+    @include hover-effect(variables.$orange, variables.$white)
   }
 }
