@@ -11,16 +11,24 @@
 }
 
 .component {
-  background-color: variables.$medium-grey;
+  background-color: black;
   // background-color: variables.$dark-blue;
   border-radius: 2rem;
-  max-width: 375px;
+  max-width: 410px;
   padding: 2rem;
 
   &__title {
     color: variables.$white;
     font-weight: 700;
     font-size: 1.8rem;
+    margin-bottom: .75rem;
+  }
+
+  &__text {
+    color: variables.$medium-grey;
+    font-size: 15px;
+    margin-bottom: 1.75rem;
+    line-height: 1.5;
   }
 
   &__final {
@@ -31,6 +39,7 @@
 .rating {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 2rem;
 
   &__btn {
     aspect-ratio: 1;

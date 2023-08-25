@@ -14,15 +14,22 @@
 }
 
 .component {
-  background-color: hsl(216, 12%, 54%);
+  background-color: black;
   border-radius: 2rem;
-  max-width: 375px;
+  max-width: 410px;
   padding: 2rem;
 }
 .component__title {
   color: hsl(0, 0%, 100%);
   font-weight: 700;
   font-size: 1.8rem;
+  margin-bottom: 0.75rem;
+}
+.component__text {
+  color: hsl(216, 12%, 54%);
+  font-size: 15px;
+  margin-bottom: 1.75rem;
+  line-height: 1.5;
 }
 .component__final {
   display: none;
@@ -31,6 +38,7 @@
 .rating {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 2rem;
 }
 .rating__btn {
   aspect-ratio: 1;
