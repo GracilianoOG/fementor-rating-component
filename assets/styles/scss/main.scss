@@ -17,6 +17,14 @@
   max-width: 410px;
   padding: 2rem;
 
+  &__decor {
+    aspect-ratio: 1;
+    background: url("../../images/icon-star.svg") no-repeat center variables.$dark-blue;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    width: 50px;
+  }
+
   &__title {
     color: variables.$white;
     font-weight: 700;
