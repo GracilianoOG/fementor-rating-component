@@ -56,7 +56,14 @@
     letter-spacing: 2px;
     padding: .85rem;
     text-transform: uppercase;
+    transition: background-color .25s, color .25s;
     width: 100%;
+
+    &:focus,
+    &:hover {
+      background-color: variables.$white;
+      color: variables.$orange;
+    }
   }
 }
 
