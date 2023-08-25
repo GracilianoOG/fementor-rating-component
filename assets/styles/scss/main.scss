@@ -12,7 +12,9 @@
 
 .component {
   background-color: black;
-  // background-color: variables.$dark-blue;
+  background-image: radial-gradient(
+    circle at top, variables.$dark-blue, variables.$dark-blue-2
+  );
   border-radius: 2rem;
   max-width: 410px;
   padding: 2rem;
