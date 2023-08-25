@@ -11,6 +11,12 @@
   }
 }
 
+@mixin round-element {
+  aspect-ratio: 1;
+  border-radius: 50%;
+  width: 50px;
+}
+
 .wrapper {
   align-items: center;
   background-color: variables.$very-dark-blue;
@@ -30,11 +36,9 @@
   padding: 2rem;
 
   &__decor {
-    aspect-ratio: 1;
     background: url("../../images/icon-star.svg") no-repeat center variables.$dark-blue;
-    border-radius: 50%;
     margin-bottom: 2rem;
-    width: 50px;
+    @include round-element;
   }
 
   &__title {
@@ -67,7 +71,7 @@
     padding: .85rem;
     text-transform: uppercase;
     width: 100%;
-    @include hover-effect(variables.$white, variables.$orange)
+    @include hover-effect(variables.$white, variables.$orange);
   }
 }
 
@@ -77,15 +81,14 @@
   margin-bottom: 2rem;
 
   &__btn {
-    aspect-ratio: 1;
     background-color: variables.$dark-blue;
     border: 0;
-    border-radius: 50%;
     color: variables.$light-grey;
     cursor: pointer;
     font-size: 1rem;
     font-weight: 700;
     padding: 0 1.35rem;
-    @include hover-effect(variables.$orange, variables.$white)
+    @include round-element;
+    @include hover-effect(variables.$orange, variables.$white);
   }
 }
