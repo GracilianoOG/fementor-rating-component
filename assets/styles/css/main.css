@@ -14,7 +14,7 @@
 }
 
 .component {
-  background-color: hsl(213, 19%, 18%);
+  background-color: hsl(216, 12%, 54%);
   border-radius: 2rem;
   max-width: 375px;
   padding: 2rem;
@@ -26,4 +26,19 @@
 }
 .component__final {
   display: none;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+}
+.rating__btn {
+  aspect-ratio: 1;
+  background-color: hsl(213, 19%, 18%);
+  border: 0;
+  border-radius: 50%;
+  color: hsl(217, 12%, 63%);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0 1.25rem;
 }

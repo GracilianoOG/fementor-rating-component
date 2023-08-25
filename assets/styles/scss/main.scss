@@ -11,7 +11,8 @@
 }
 
 .component {
-  background-color: variables.$dark-blue;
+  background-color: variables.$medium-grey;
+  // background-color: variables.$dark-blue;
   border-radius: 2rem;
   max-width: 375px;
   padding: 2rem;
@@ -24,5 +25,21 @@
 
   &__final {
     display: none;
+  }
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+
+  &__btn {
+    aspect-ratio: 1;
+    background-color: variables.$dark-blue;
+    border: 0;
+    border-radius: 50%;
+    color: variables.$light-grey;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0 1.25rem;
   }
 }
