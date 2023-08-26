@@ -21,6 +21,8 @@
   width: 410px;
   height: 420px;
   max-height: 420px;
+}
+.component__rating {
   padding: 2rem;
 }
 .component__decor {

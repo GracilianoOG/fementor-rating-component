@@ -36,7 +36,10 @@
   width: 410px;
   height: 420px;
   max-height: 420px;
-  padding: 2rem;
+
+  &__rating {
+    padding: 2rem;
+  }
 
   &__decor {
     background: url("../../images/icon-star.svg") no-repeat center variables.$dark-blue;
