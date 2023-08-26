@@ -34,6 +34,7 @@
   max-height: 420px;
 }
 .component__rating {
+  display: none;
   padding: 2rem;
 }
 .component__icon {
@@ -42,6 +43,10 @@
   aspect-ratio: 1;
   border-radius: 50%;
   width: 50px;
+}
+.component__img {
+  display: block;
+  margin: 0 auto 2rem auto;
 }
 .component__title {
   color: hsl(0, 0%, 100%);
@@ -55,8 +60,17 @@
   margin-bottom: 1.75rem;
   line-height: 1.6;
 }
+.component__text--info {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 1rem;
+  color: hsl(25, 97%, 53%);
+  display: inline-block;
+  margin-bottom: 2rem;
+  padding: 0.25rem 1.2rem;
+}
 .component__final {
-  display: none;
+  padding: 2.75rem 2.25rem;
+  text-align: center;
 }
 .component__submit {
   border: 0;
