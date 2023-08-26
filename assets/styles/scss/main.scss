@@ -54,7 +54,7 @@
     padding: 2rem;
   }
 
-  &__decor {
+  &__icon {
     background: url("../../images/icon-star.svg") no-repeat center variables.$dark-blue;
     margin-bottom: 2rem;
     @include round-element;

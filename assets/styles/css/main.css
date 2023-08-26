@@ -36,7 +36,7 @@
 .component__rating {
   padding: 2rem;
 }
-.component__decor {
+.component__icon {
   background: url("../../images/icon-star.svg") no-repeat center hsl(213, 19%, 18%);
   margin-bottom: 2rem;
   aspect-ratio: 1;
