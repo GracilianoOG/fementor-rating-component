@@ -18,6 +18,9 @@
   background-image: radial-gradient(circle at top, hsl(213, 19%, 18%), hsl(215, 27%, 12%));
   border-radius: 2rem;
   max-width: 410px;
+  width: 410px;
+  height: 420px;
+  max-height: 420px;
   padding: 2rem;
 }
 .component__decor {
