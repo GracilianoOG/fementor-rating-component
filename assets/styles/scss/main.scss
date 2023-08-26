@@ -17,6 +17,18 @@
   width: 50px;
 }
 
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .wrapper {
   align-items: center;
   background-color: variables.$very-dark-blue;
@@ -27,6 +39,7 @@
 }
 
 .component {
+  animation: slide .65s;
   background-color: black;
   background-image: radial-gradient(
     circle at top, variables.$dark-blue, variables.$dark-blue-2

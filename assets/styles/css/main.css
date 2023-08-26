@@ -4,6 +4,16 @@
   padding: 0;
 }
 
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 .wrapper {
   align-items: center;
   background-color: hsl(216, 12%, 8%);
@@ -14,6 +24,7 @@
 }
 
 .component {
+  animation: slide 0.65s;
   background-color: black;
   background-image: radial-gradient(circle at top, hsl(213, 19%, 18%), hsl(215, 27%, 12%));
   border-radius: 2rem;
