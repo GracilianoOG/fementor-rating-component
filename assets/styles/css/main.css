@@ -86,7 +86,7 @@
   width: 100%;
   transition: background-color 0.25s, color 0.25s;
 }
-.component__submit:focus, .component__submit:hover {
+.component__submit:focus-visible, .component__submit:hover {
   background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
 }
@@ -109,7 +109,7 @@
   width: 50px;
   transition: background-color 0.25s, color 0.25s;
 }
-.rating__btn:focus, .rating__btn:hover {
+.rating__btn:focus-visible, .rating__btn:hover {
   background-color: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
 }

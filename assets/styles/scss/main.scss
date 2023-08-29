@@ -4,7 +4,7 @@
 @mixin hover-effect($bg-color, $font-color, $time: .25s) {
   transition: background-color $time, color $time;
 
-  &:focus,
+  &:focus-visible,
   &:hover {
     background-color: $bg-color;
     color: $font-color;
