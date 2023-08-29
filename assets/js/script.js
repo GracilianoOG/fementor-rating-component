@@ -1,8 +1,6 @@
-const submitPage = document.querySelector(".component__rating");
-const resultPage = document.querySelector(".component__final");
-const btnSubmit = document.querySelector(".component__submit");
-
-btnSubmit.addEventListener("click", () => {
-  submitPage.style.display = "none";
-  resultPage.style.display = "block";
-}, { once: true });
+$(document).ready(function() {
+  $(".component__submit").click(function() {
+    $(".component__rating").css("display", "none");
+    $(".component__final").css("display", "block");
+  });
+});
