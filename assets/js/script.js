@@ -1,5 +1,7 @@
 $(document).ready(function() {
   $(".component__submit").click(function() {
+    const rating = $(".rating__btn--selected").text();
+    $(".component__text span").text(rating);
     $(".component__rating").css("display", "none");
     $(".component__final").fadeIn(600).css("display", "block");
   });
