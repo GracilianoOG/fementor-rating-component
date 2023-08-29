@@ -34,7 +34,6 @@
   max-height: 420px;
 }
 .component__rating {
-  display: none;
   padding: 2rem;
 }
 .component__icon {
@@ -69,6 +68,7 @@
   padding: 0.25rem 1.2rem;
 }
 .component__final {
+  display: none;
   padding: 2.75rem 2.25rem;
   text-align: center;
 }

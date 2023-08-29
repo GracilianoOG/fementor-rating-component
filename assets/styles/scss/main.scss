@@ -51,7 +51,6 @@
   max-height: 420px;
 
   &__rating {
-    display: none;
     padding: 2rem;
   }
 
@@ -90,7 +89,7 @@
   }
 
   &__final {
-    // display: none;
+    display: none;
     padding: 2.75rem 2.25rem;
     text-align: center;
   }
