@@ -1,21 +1,6 @@
 @use "./reset";
 @use "./variables";
-
-@mixin hover-effect($bg-color, $font-color, $time: .25s) {
-  transition: background-color $time, color $time;
-
-  &:focus-visible,
-  &:hover {
-    background-color: $bg-color;
-    color: $font-color;
-  }
-}
-
-@mixin round-element {
-  aspect-ratio: 1;
-  border-radius: 50%;
-  width: 3.125rem;
-}
+@use "./mixins";
 
 @keyframes slide {
   0% {
@@ -55,7 +40,7 @@
   &__icon {
     background: url("../../images/icon-star.svg") no-repeat center variables.$dark-blue;
     margin-bottom: 2rem;
-    @include round-element;
+    @include mixins.round-element;
   }
 
   &__img {
@@ -104,7 +89,7 @@
     padding: .85rem;
     text-transform: uppercase;
     width: 100%;
-    @include hover-effect(variables.$white, variables.$orange);
+    @include mixins.hover-effect(variables.$white, variables.$orange);
   }
 }
 
@@ -121,8 +106,8 @@
     font-size: 1rem;
     font-weight: 700;
     padding: 0 1.35rem;
-    @include round-element;
-    @include hover-effect(variables.$orange, variables.$white);
+    @include mixins.round-element;
+    @include mixins.hover-effect(variables.$orange, variables.$white);
 
     &--selected {
       background-color: variables.$medium-grey;

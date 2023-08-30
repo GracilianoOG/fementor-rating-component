@@ -1,0 +1,15 @@
+@mixin hover-effect($bg-color, $font-color, $time: .25s) {
+  transition: background-color $time, color $time;
+
+  &:focus-visible,
+  &:hover {
+    background-color: $bg-color;
+    color: $font-color;
+  }
+}
+
+@mixin round-element {
+  aspect-ratio: 1;
+  border-radius: 50%;
+  width: 3.125rem;
+}
