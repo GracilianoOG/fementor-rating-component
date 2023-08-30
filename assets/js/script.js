@@ -6,7 +6,7 @@ $(document).ready(function() {
     $(".component__final").fadeIn(600).css("display", "block");
   });
 
-  $(".rating__btn").click(function() {
+  $(".rating").on("click", ".rating__btn", function() {
     $(".rating__btn").removeClass("rating__btn--selected");
     $(this).addClass("rating__btn--selected");
   });
