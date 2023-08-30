@@ -7,7 +7,7 @@
 @keyframes slide {
   0% {
     opacity: 0;
-    transform: translateX(-30px);
+    transform: translateX(-1.875rem);
   }
   100% {
     opacity: 1;
@@ -28,10 +28,8 @@
   background-color: black;
   background-image: radial-gradient(circle at top, hsl(213, 19%, 18%), hsl(215, 27%, 12%));
   border-radius: 2rem;
-  max-width: 410px;
   width: 410px;
   height: 420px;
-  max-height: 420px;
 }
 .component__rating {
   padding: 2rem;
@@ -41,7 +39,7 @@
   margin-bottom: 2rem;
   aspect-ratio: 1;
   border-radius: 50%;
-  width: 50px;
+  width: 3.125rem;
 }
 .component__img {
   display: block;
@@ -55,7 +53,7 @@
 }
 .component__text {
   color: hsl(216, 12%, 54%);
-  font-size: 15px;
+  font-size: 0.9375rem;
   margin-bottom: 1.75rem;
   line-height: 1.6;
 }
@@ -80,7 +78,7 @@
   cursor: pointer;
   font-size: 0.95rem;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
   padding: 0.85rem;
   text-transform: uppercase;
   width: 100%;
@@ -106,7 +104,7 @@
   padding: 0 1.35rem;
   aspect-ratio: 1;
   border-radius: 50%;
-  width: 50px;
+  width: 3.125rem;
   transition: background-color 0.25s, color 0.25s;
 }
 .rating__btn:focus-visible, .rating__btn:hover {
