@@ -88,6 +88,11 @@
   background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
 }
+.component__submit--disabled {
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(216, 12%, 54%);
+  pointer-events: none;
+}
 
 .rating {
   display: flex;

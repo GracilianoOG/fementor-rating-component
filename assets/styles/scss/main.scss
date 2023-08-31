@@ -90,6 +90,12 @@
     text-transform: uppercase;
     width: 100%;
     @include mixins.hover-effect(variables.$white, variables.$orange);
+
+    &--disabled {
+      background-color: variables.$dark-blue;
+      color: variables.$medium-grey;
+      pointer-events: none;
+    }
   }
 }
 
