@@ -21,6 +21,7 @@
   font-family: "Overpass", sans-serif;
   justify-content: center;
   min-height: 100vh;
+  padding: 1.5rem;
 }
 
 .component {
@@ -106,7 +107,6 @@
   cursor: pointer;
   font-size: 1rem;
   font-weight: 700;
-  padding: 0 1.35rem;
   aspect-ratio: 1;
   border-radius: 50%;
   width: 3.125rem;
