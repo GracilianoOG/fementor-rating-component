@@ -63,7 +63,7 @@
   color: hsl(25, 97%, 53%);
   display: inline-block;
   margin-bottom: 2rem;
-  padding: 0.25rem 1.2rem;
+  padding: 0.3rem 1.2rem 0.15rem 1.2rem;
 }
 .component__final {
   display: none;
