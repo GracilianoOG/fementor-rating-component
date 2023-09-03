@@ -14,6 +14,10 @@
     transform: translateX(0);
   }
 }
+body {
+  font-family: "Overpass", sans-serif;
+}
+
 .sr-only {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -28,7 +32,6 @@
   align-items: center;
   background-color: hsl(216, 12%, 8%);
   display: flex;
-  font-family: "Overpass", sans-serif;
   justify-content: center;
   min-height: 100vh;
   padding: 1.5rem;
@@ -134,7 +137,6 @@
 .attribution {
   bottom: 0;
   color: hsl(0, 0%, 100%);
-  font-family: "Overpass", sans-serif;
   font-size: min(3.5vw, 1rem);
   position: fixed;
   text-align: center;
