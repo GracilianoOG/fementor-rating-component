@@ -149,3 +149,18 @@ body {
 .attribution__link:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 23.4375rem) {
+  .component {
+    border-radius: 1rem;
+  }
+  .component__icon {
+    margin-bottom: 1.5rem;
+  }
+  .component__rating {
+    padding: 1.5rem;
+  }
+  .rating__btn {
+    width: 2.9375rem;
+  }
+}

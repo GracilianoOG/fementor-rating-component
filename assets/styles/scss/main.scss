@@ -143,3 +143,23 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 23.4375rem) {
+  .component {
+    border-radius: 1rem;
+
+    &__icon {
+      margin-bottom: 1.5rem;
+    }
+
+    &__rating {
+      padding: 1.5rem;
+    }
+  }
+
+  .rating {
+    &__btn {
+      width: 2.9375rem;
+    }
+  }
+}
