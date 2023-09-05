@@ -144,10 +144,9 @@ body {
 }
 .attribution__link {
   color: hsl(25, 97%, 53%);
-  text-decoration: none;
 }
 .attribution__link:hover {
-  text-decoration: underline;
+  text-shadow: 0 0 0.375rem hsl(25, 97%, 53%);
 }
 
 @media screen and (max-width: 23.4375rem) {
