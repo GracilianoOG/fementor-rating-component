@@ -22,3 +22,4 @@ I would like to improve the way I made it responsive, it doesn't fit very well i
 * [Frontend Mentor](https://www.frontendmentor.io/) - The place to find awesome challenges
 * [JQuery Delegation](https://learn.jquery.com/events/event-delegation/) - Learn how delegation works in JQuery
 * [Accessibility Tips](https://developer.mozilla.org/en-US/docs/Web/Accessibility) - Lots of useful resources about accessibility
+* [Link Distinction](https://dequeuniversity.com/rules/axe/4.6/link-in-text-block?application=axeAPI) - Links must be distinguishable without relying on color
